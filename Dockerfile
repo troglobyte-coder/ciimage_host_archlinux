@@ -27,6 +27,7 @@ RUN pacman -Syu --noconfirm \
 
 RUN pip3 -q install --upgrade pip \
     && python3 -m pip -q install \
-       meson==0.62.0 \
-       ninja==1.10.0.post2 \
-       scan-build
+       meson==0.62.2 \
+       scan-build==2.0.20 \
+       ninja==1.10.2.3 \
+       cmake==3.22.5

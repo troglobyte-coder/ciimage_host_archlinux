@@ -21,7 +21,6 @@ RUN pacman -Syu --noconfirm \
        python \
        python-pip \
        gcc \
-       g++\
        git \
        ccache \
        cppcheck
